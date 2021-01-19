@@ -1,0 +1,53 @@
+.pokemon-info-1{
+    display: flex;
+    justify-content: center;
+}
+.pokemon-info-1 .type{
+    margin-left: 20px;
+}
+
+.bot{
+    background-color: lightblue;
+    text-align: center;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.bot h6{
+    margin: 20px;    
+    padding-top: 20px;
+    font-style: italic;
+    background-color:lightgrey ;
+    border-radius: 300px;
+}
+
+
+
+.pokemon-info-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokemon-info-2 .move{
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+    margin-right: 20px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    width: auto;
+    padding: 5px;
+}
+
+
+.pokemon-info-2 p{
+    text-align: center;
+}
+
+.catch{
+    border-radius: 500px;
+}
+
+.success{
+    background-color: greenyellow;
+    border-radius: 30px;
+    color: dimgray;
+}

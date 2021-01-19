@@ -1,0 +1,46 @@
+.card{
+    background-color : 	#F0FFFF;
+    width: 300px;
+    height: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 70px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color:greenyellow;
+}
+
+.types {
+    display: flex;
+    justify-content: center;    
+}
+
+.type {
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    background-color: grey;
+    color: #fff;
+}
+
+.card-custom{
+    overflow: hidden;
+    min-height: 450px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  }
+
+.captured{
+    display: flex;
+}
+
+.captured button{
+    margin-left: 20px;
+}
